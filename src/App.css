@@ -3,6 +3,7 @@
  /* variaiables */
  :root {
     --header-height: 3rem;
+    --header-height-bottom: 3rem;
     /* Colors */
     --hue: 0;
     --sat: 0%;
@@ -92,6 +93,7 @@ ul {
 }
 a {
     text-decoration: none;
+    color: var(--title-color);
 }
 
 button {
@@ -162,7 +164,10 @@ img {
 
 /* Breakpoints */
 @media screen and (max-width: 992px) {
-
+    .container {
+        margin-left: var(--mb-1-5);
+        margin-right: var(--mb-1-5);
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -174,5 +179,8 @@ img {
 }
 
 @media screen and (max-width: 350px) {
-    
+    .container {
+        margin-left: var(--mb-1);
+        margin-right: var(--mb-1);
+    }
 }
