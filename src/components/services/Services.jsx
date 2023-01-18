@@ -1,4 +1,5 @@
 import React from 'react'
+import "./services.css"
 
 const Services = () => {
   return (
@@ -9,8 +10,183 @@ const Services = () => {
       <div className="services__container container grid">
         <div className="services__content">
           <div>
-            <i className="uil uil services__icon"></i>
-            <h3 className="services__title"></h3>
+            <i className="uil uil-web-grid services__icon"></i>
+            <h3 className="services__title">
+              Product <br /> Designer
+            </h3>
+          </div>
+
+          <span className="services__button">View More<i
+          className="uil uil-arrow-right"></i></span>
+
+          <div className="services__modal">
+            <div className="services__modal-content">
+              <i className="uil uil-times services__modal-close"></i>
+
+              <h3 className="services__modal-title">Product Designer</h3>
+              <p className="services__modal-description">Service with more than 3 years of experience.
+                Providing quality work to clients and companies.
+                </p>
+
+                <ul className="services__modal-sercvices grid">
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">
+                       Design user interfaces.
+                    </p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">
+                       Develop web Applications.
+                    </p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">
+                      Interactive UI elements.
+                    </p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">
+                       Positioning of company branding.
+                    </p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">
+                       Designs and mockups of products and pages.
+                    </p>
+                  </li>
+
+                </ul>
+
+            </div>
+          </div>
+        </div>
+
+        <div className="services__content">
+          <div>
+            <i className="uil uil-arrow services__icon"></i>
+            <h3 className="services__title">UI/UX <br /> Designer</h3>
+          </div>
+
+          <span className="services__button">View More<i
+          className="uil uil-arrow-right"></i></span>
+
+          <div className="services__modal">
+            <div className="services__modal-content">
+              <i className="uil uil-times services__modal-close"></i>
+
+              <h3 className="services__modal-title">UI/UX Designer</h3>
+              <p className="services__modal-description">Service with more than 3 years of experience.
+                Providing quality work to clients and companies.
+                </p>
+
+                <ul className="services__modal-sercvices grid">
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">
+                       Design user interfaces.
+                    </p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">
+                       Develop web Applications.
+                    </p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">
+                      Interactive UI elements.
+                    </p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">
+                       Positioning of company branding.
+                    </p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">
+                       Designs and mockups of products and pages.
+                    </p>
+                  </li>
+
+                </ul>
+
+            </div>
+          </div>
+        </div>
+
+        <div className="services__content">
+          <div>
+            <i className="uil uil-edit services__icon"></i>
+            <h3 className="services__title">Visual <br /> designer</h3>
+          </div>
+
+          <span className="services__button">View More<i
+          className="uil uil-arrow-right"></i></span>
+
+          <div className="services__modal">
+            <div className="services__modal-content">
+              <i className="uil uil-times services__modal-close"></i>
+
+              <h3 className="services__modal-title">Visual Designer</h3>
+              <p className="services__modal-description">Service with more than 3 years of experience.
+                Providing quality work to clients and companies.
+                </p>
+
+                <ul className="services__modal-sercvices grid">
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">
+                       Design user interfaces.
+                    </p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">
+                       Develop web Applications.
+                    </p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">
+                      Interactive UI elements.
+                    </p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">
+                       Positioning of company branding.
+                    </p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">
+                       Designs and mockups of products and pages.
+                    </p>
+                  </li>
+
+                </ul>
+
+            </div>
           </div>
         </div>
       </div>
