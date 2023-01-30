@@ -8,6 +8,8 @@
     width: 350px;
     border-radius: 1.5rem;
     justify-self: center;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 
 .about__info {
