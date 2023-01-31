@@ -5,6 +5,7 @@
     left: 0;
     z-index: var(--z-fixed);
     background-color: var(--container-color);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 
 .nav {
@@ -59,6 +60,7 @@
     .header {
         top: initial;
         bottom: 0;
+        box-shadow: inset 0px 7px 3px -3px rgba(50, 50, 50, 0.75);
     }
 
     .nav {

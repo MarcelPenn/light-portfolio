@@ -3,11 +3,11 @@
  /* variaiables */
  :root {
     --header-height: 3rem;
-    --header-height-bottom: 3rem;
+    --header-height-bottom: 4rem;
     /* Colors */
     --hue: 0;
     --sat: 0%;
-    --title-color: hsl(var(--hue), var(--sat), 20%);
+    --title-color: #306844;/*hsl(var(--hue), var(--sat), 20%);*/
     --title-color-dark: hsl(var(--hue), var(--sat), 0%);
     --text-color: hsl(var(--hue), var(--sat), 46%);
     --body-color: hsl(var(--hue), var(--sat), 98%);
@@ -192,12 +192,14 @@ img {
 }
 
 @media screen and (max-width: 576px) {
-    
+    :root {
+        --big-font-size: 2.25rem;
+    }
 }
 
 @media screen and (max-width: 350px) {
     :root {
-        --big-font-size: 2.25rem;
+        --big-font-size: 2rem;
     }
     .container {
         margin-left: var(--mb-1);
