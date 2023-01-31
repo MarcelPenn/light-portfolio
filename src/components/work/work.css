@@ -68,8 +68,8 @@
 
 /* active work */
 .active-work {
-    background-color: var(--title-color);
-    color: var(--container-color);
+    background-color: black;
+    color: white;
 }
 
 /* Breakpoints */
