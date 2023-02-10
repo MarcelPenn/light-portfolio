@@ -8,32 +8,32 @@ export const projectsData = [
     {
         id: 1,
         image: Work1,
-        title: 'Web design',
-        category: 'web',
+        title: 'Content1',
+        category: 'content',
     },
     {
         id: 2,
         image: Work2,
-        title: 'Web design',
-        category: 'web',
+        title: 'design1',
+        category: 'design',
     },
     {
         id: 3,
         image: Work3,
-        title: 'Design',
-        category: 'design',
+        title: 'Content2',
+        category: 'content',
     },
     {
         id: 4,
         image: Work4,
-        title: 'App',
-        category: 'app',
+        title: 'React',
+        category: 'react',
     },
     {
         id: 5,
         image: Work5,
-        title: 'Content',
-        category: 'web',
+        title: 'design2',
+        category: 'design',
     },
 ];
 
@@ -42,12 +42,12 @@ export const projectsNav = [
         name: 'all',
     },
     {
-        name: 'web',
-    },
-    {
-        name: 'app',
-    },
-    {
         name: 'design',
+    },
+    {
+        name: 'react',
+    },
+    {
+        name: 'content',
     }
 ]

@@ -29,6 +29,11 @@
     font-weight: var(--font-medium);
 }
 
+.about__h2 {
+    margin-bottom: var(--mb-1-5);
+    text-align: center;
+}
+
 .about__subtitle {
    font-size: var(--tiny-font-size);
 }

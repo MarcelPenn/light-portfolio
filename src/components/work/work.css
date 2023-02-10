@@ -68,7 +68,7 @@
 
 /* active work */
 .active-work {
-    background-color: black;
+    background-color: var(--title-color);
     color: white;
 }
 
